@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+}
+.bacbanner{
+  height: 60vh;
+}
+
+
+
+
+/* carddssss/////////// */
+.card-hover {
+  height: 180px;
+  cursor: pointer;
+  overflow: visible;
+  transition: background 0.5s ease;
+  z-index: 111;
+}
+
+.parent:hover .card-hover {
+  background: linear-gradient(
+    90deg,
+    rgba(50, 132, 209, 1) 0%,
+    rgba(10, 77, 194, 1) 100%
+  );
+  overflow: visible;
+  z-index: 2222;
+}
+
+.info-text {
+  transition: opacity 0.5s ease;
+}
+
+.parent:hover .info-text {
+  opacity: 0;
+}
+
+.parent:hover .title-text {
+  opacity: 1;
+  transform: translateY(-40px);
+  color: whitesmoke;
+}
+
+.title-text {
+  transform: translateY(15px);
+  transition: all 0.3s ease;
+}
+
+.new-text {
+  opacity: 0;
+  margin-top: -40px;
+  transform: translateY(-25px);
+  transition: all 0.5s ease;
+}
+
+.parent:hover .new-text {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* -------- الزر -------- */
+.new-button {
+  background-color: rgba(50, 132, 209, 1);
+  font-weight: 900;
+  color: azure;
+  padding: 15px 25px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 111111111111111;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.5s ease;
+}
+
+.parent:hover .new-button {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* ستايل الكولوم التاني  */
+.carddd {
+  height: 180px;
+  cursor: pointer;
+  background: linear-gradient(
+    90deg,
+    rgba(50, 132, 209, 1) 0%,
+    rgba(10, 77, 194, 1) 100%
+  );
+}
+/* /////////////bottuns style///////////// */
+.btnhover {
+
+  transition: all 0.3s ease;
+}
+
+/* عند hover */
+.btnhover:hover {
+  background: linear-gradient(
+    90deg,
+    rgb(25, 117, 223) 0%,
+    rgb(68, 45, 238) 35%,
+    rgb(135, 85, 229) 100%
+  );
+  color: #fff !important; 
+}
+
+/* الزر النشط */
+.page-item.active .btnhover {
+  background: linear-gradient(
+    90deg,
+    rgb(25, 117, 223) 0%,
+    rgb(68, 45, 238) 35%,
+    rgb(135, 85, 229) 100%
+  );
+  color: #fff;
+  font-weight: bold;
+}
+
+/* كاروسيل//////////////// */
+.bbbbb{
+
+  border-top: 1px solid rgba(128, 128, 128, 0.375);
+padding-top: 50px;
+
+}
